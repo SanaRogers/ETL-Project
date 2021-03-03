@@ -17,6 +17,5 @@ JOIN draftinfo
 ON salaries."Player" = draftinfo."Player"
 JOIN perinfo
 ON perinfo."Player" = salaries."Player";
-ORDER BY "season17_18_salary" DESC;
 
 
